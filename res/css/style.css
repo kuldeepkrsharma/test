@@ -1,0 +1,71 @@
+body, h1,h2,h3,h4,h5,h6
+{
+  font-family: "Montserrat", sans-serif;
+}
+body
+{
+  background-color: black;
+  color:white;
+}
+.text-large
+{
+  font-size: 70px;
+  font-weight: lighter;
+}
+.btn
+{
+  font-family: 'Inconsolata', monospace;
+}
+a
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.about, .my-work, .foot
+{
+  margin: 7%;
+}
+.w3-input
+{
+  border-radius: 4px !important;
+}
+.w3-btn
+{
+  border-radius: 4px !important;
+}
+.w3-btn:hover
+{
+  transition: 0.3s;
+  opacity: 80% !important;
+
+}
+.fa:hover
+{
+  transition: 0.3s;
+  opacity: 70%;
+}
+.about p
+{
+  font-weight: lighter !important;
+}
+.fa
+{
+  font-size: 20%;
+}
+span label
+{
+  font-weight:100 !important;
+}
+.img-work
+{
+  transition: 0.2s;
+  filter: grayscale(100%);
+}
+.img-work:hover
+{
+  transition: 0.4s;
+  filter: grayscale(0%);
+}
